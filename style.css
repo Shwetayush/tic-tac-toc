@@ -1,0 +1,35 @@
+table {
+    border-collapse: collapse;
+  }
+  td {
+    border: 1px solid black;
+    width: 200px;
+    height: 200px;
+    font-size: 100px;
+    cursor: pointer;
+    text-align: center;
+  }
+  p {
+    font-size: 40px;
+  }
+
+  table tr:first-child td {
+    border-top: none;
+  }
+  table tr:last-child td {
+    border-bottom: none;
+  }
+
+  table tr td:first-child {
+    border-left: none;
+  }
+  table tr td:last-child {
+    border-right: none;
+  }
+  section {
+    display: flex;
+  }
+  body {
+    display: flex;
+    justify-content: center;
+  }
